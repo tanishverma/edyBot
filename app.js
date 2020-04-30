@@ -38,7 +38,7 @@ async function runSample(msg,projectId = 'edybot-llosrq') {
 
   // Create a new session
   const sessionClient = new dialogflow.SessionsClient({
-      keyFilename:"./edyBot-7459442f36ab.json"
+      keyFilename:"./edyBot-74594aabbccdd42f36ab.json"
   });
   const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
